@@ -1,0 +1,26 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#countdown {
+    color: white;
+    transition: opacity 400ms ease-in-out;
+}
+
+.player-btn {
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+.hide {
+    display: none;
+}
