@@ -1,0 +1,28 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tile {
+    height: 45px;
+    width: 45px;
+    background-color: lightpink;
+    padding: 0.15rem;
+    margin: 0.15rem;
+    border: solid 1px black;
+    border-radius: 0.1rem;
+}
+
+#reset {
+    margin: 0.5rem;
+    padding: 0.25rem 0.75rem;
+    background: linear-gradient(135deg, #c471f5 0%, #fa71cd 100%);
+    border: solid 1px black;
+    border-radius: 0.25rem;
+}
